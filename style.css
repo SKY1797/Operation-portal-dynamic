@@ -241,6 +241,12 @@ body {
   gap: 0.25rem;
 }
 
+@media (max-width: 640px) {
+  .mobile-center {
+    text-align: center !important;
+  }
+}
+
 .page-title {
   font-size: 1.6rem;
   font-weight: 600;
