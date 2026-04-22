@@ -1,6 +1,6 @@
 {
     "name": "NTPC Solapur Operation Department",
-    "short_name": "Ops Portal Dynamic",
+    "short_name": "Operation Portal",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#F9F7F7",
