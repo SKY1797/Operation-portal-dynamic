@@ -22,7 +22,7 @@
 
   --border: #e4e4e7;
   --input: #e4e4e7;
-  --ring: #6b7e81;
+  --ring: #cbd5dbcd;
 
   /* * UPDATED: Aligned module variables with the main page ui-card (nth-child) color themes!
    * This ensures the nav-pill buttons and dynamic UI elements match the cards exactly.
@@ -461,7 +461,7 @@ body {
   font-family: inherit;
   font-size: 1rem;
   color: var(--foreground);
-  /* transition: all 0.2s; */
+  transition: all 0.2s;
 }
 
 .ui-input::placeholder {
@@ -470,7 +470,7 @@ body {
 
 .ui-input:focus {
   outline: none;
-  /* border-color: var(--ring); */
+  border-color: var(--ring);
 }
 
 .search-dropdown {
@@ -553,6 +553,13 @@ body {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--card);
+}
+
+@media (min-width: 768px) {
+  .table-wrap {
+    width: 65%;
+    margin: auto;
+  }
 }
 
 .ui-table {
